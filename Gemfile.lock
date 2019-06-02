@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backports (3.15.0)
+    commander (4.4.7)
+      highline (~> 2.0.0)
+    highline (2.0.2)
+    json (2.2.0)
+    multi_json (1.13.1)
+    mustermann (1.0.3)
+    rack (2.0.7)
+    rack-protection (2.0.5)
+      rack
+    sinatra (2.0.5)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.5)
+      tilt (~> 2.0)
+    sinatra-contrib (2.0.5)
+      backports (>= 2.8.2)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.0.5)
+      sinatra (= 2.0.5)
+      tilt (>= 1.3, < 3)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    tilt (2.0.9)
+    unicode-display_width (1.6.0)
+    venice (0.5.0)
+      commander (~> 4.1)
+      json
+      terminal-table (~> 1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sinatra
+  sinatra-contrib
+  venice
+
+BUNDLED WITH
+   1.17.1
