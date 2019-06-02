@@ -1,0 +1,6 @@
+{
+  "name": "iOS Receipt Checker Server Demo",
+  "description": "A minimal Ruby server (Sinatra) app which validate iOS receipt",
+  "repository": "https://github.com/fluffyes/DeviceCheckerServer",
+  "keywords": ["ruby", "sinatra", "ios", "receipt"]
+}
